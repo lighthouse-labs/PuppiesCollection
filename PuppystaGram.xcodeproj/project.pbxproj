@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15394AE7193877C04C9A7151 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B06305A9B37AAF142EE0EA0D /* libPods.a */; };
+		2886EDC01B0E3A9000843496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDBF1B0E3A9000843496 /* main.m */; };
+		2886EDC31B0E3A9000843496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDC21B0E3A9000843496 /* AppDelegate.m */; };
+		2886EDC61B0E3A9000843496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDC51B0E3A9000843496 /* ViewController.m */; };
+		2886EDC91B0E3A9000843496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2886EDC71B0E3A9000843496 /* Main.storyboard */; };
+		2886EDCB1B0E3A9000843496 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2886EDCA1B0E3A9000843496 /* Images.xcassets */; };
+		2886EDCE1B0E3A9000843496 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2886EDCC1B0E3A9000843496 /* LaunchScreen.xib */; };
+		2886EDDA1B0E3A9000843496 /* PuppystaGramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDD91B0E3A9000843496 /* PuppystaGramTests.m */; };
+		2886EDE51B0E41E700843496 /* PuppyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDE41B0E41E700843496 /* PuppyCollectionViewCell.m */; };
+		2886EDE81B0E49A000843496 /* PuppyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDE71B0E49A000843496 /* PuppyViewController.m */; };
+		2886EDEB1B0E4D6F00843496 /* PuppyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886EDEA1B0E4D6F00843496 /* PuppyHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2886EDD41B0E3A9000843496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2886EDB21B0E3A9000843496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2886EDB91B0E3A9000843496;
+			remoteInfo = PuppystaGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2886EDBA1B0E3A9000843496 /* PuppystaGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppystaGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2886EDBE1B0E3A9000843496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2886EDBF1B0E3A9000843496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2886EDC11B0E3A9000843496 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2886EDC21B0E3A9000843496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2886EDC41B0E3A9000843496 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2886EDC51B0E3A9000843496 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2886EDC81B0E3A9000843496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2886EDCA1B0E3A9000843496 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2886EDCD1B0E3A9000843496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2886EDD31B0E3A9000843496 /* PuppystaGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuppystaGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2886EDD81B0E3A9000843496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2886EDD91B0E3A9000843496 /* PuppystaGramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuppystaGramTests.m; sourceTree = "<group>"; };
+		2886EDE31B0E41E700843496 /* PuppyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuppyCollectionViewCell.h; sourceTree = "<group>"; };
+		2886EDE41B0E41E700843496 /* PuppyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuppyCollectionViewCell.m; sourceTree = "<group>"; };
+		2886EDE61B0E49A000843496 /* PuppyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuppyViewController.h; sourceTree = "<group>"; };
+		2886EDE71B0E49A000843496 /* PuppyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuppyViewController.m; sourceTree = "<group>"; };
+		2886EDE91B0E4D6F00843496 /* PuppyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuppyHeaderView.h; sourceTree = "<group>"; };
+		2886EDEA1B0E4D6F00843496 /* PuppyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuppyHeaderView.m; sourceTree = "<group>"; };
+		86F7BC4E6FB5646E2D8B4D5E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B06305A9B37AAF142EE0EA0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21014AE919F472B40006984 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2886EDB71B0E3A9000843496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15394AE7193877C04C9A7151 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886EDD01B0E3A9000843496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2886EDB11B0E3A9000843496 = {
+			isa = PBXGroup;
+			children = (
+				2886EDBC1B0E3A9000843496 /* PuppystaGram */,
+				2886EDD61B0E3A9000843496 /* PuppystaGramTests */,
+				2886EDBB1B0E3A9000843496 /* Products */,
+				4E6E0ABED5E534B4F3946775 /* Pods */,
+				9A9E3019D354D64828E4D666 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2886EDBB1B0E3A9000843496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2886EDBA1B0E3A9000843496 /* PuppystaGram.app */,
+				2886EDD31B0E3A9000843496 /* PuppystaGramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2886EDBC1B0E3A9000843496 /* PuppystaGram */ = {
+			isa = PBXGroup;
+			children = (
+				2886EDC11B0E3A9000843496 /* AppDelegate.h */,
+				2886EDC21B0E3A9000843496 /* AppDelegate.m */,
+				2886EDC41B0E3A9000843496 /* ViewController.h */,
+				2886EDC51B0E3A9000843496 /* ViewController.m */,
+				2886EDE91B0E4D6F00843496 /* PuppyHeaderView.h */,
+				2886EDEA1B0E4D6F00843496 /* PuppyHeaderView.m */,
+				2886EDC71B0E3A9000843496 /* Main.storyboard */,
+				2886EDCA1B0E3A9000843496 /* Images.xcassets */,
+				2886EDCC1B0E3A9000843496 /* LaunchScreen.xib */,
+				2886EDBD1B0E3A9000843496 /* Supporting Files */,
+				2886EDE31B0E41E700843496 /* PuppyCollectionViewCell.h */,
+				2886EDE41B0E41E700843496 /* PuppyCollectionViewCell.m */,
+				2886EDE61B0E49A000843496 /* PuppyViewController.h */,
+				2886EDE71B0E49A000843496 /* PuppyViewController.m */,
+			);
+			path = PuppystaGram;
+			sourceTree = "<group>";
+		};
+		2886EDBD1B0E3A9000843496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2886EDBE1B0E3A9000843496 /* Info.plist */,
+				2886EDBF1B0E3A9000843496 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2886EDD61B0E3A9000843496 /* PuppystaGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2886EDD91B0E3A9000843496 /* PuppystaGramTests.m */,
+				2886EDD71B0E3A9000843496 /* Supporting Files */,
+			);
+			path = PuppystaGramTests;
+			sourceTree = "<group>";
+		};
+		2886EDD71B0E3A9000843496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2886EDD81B0E3A9000843496 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E6E0ABED5E534B4F3946775 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C21014AE919F472B40006984 /* Pods.debug.xcconfig */,
+				86F7BC4E6FB5646E2D8B4D5E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A9E3019D354D64828E4D666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06305A9B37AAF142EE0EA0D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2886EDB91B0E3A9000843496 /* PuppystaGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2886EDDD1B0E3A9000843496 /* Build configuration list for PBXNativeTarget "PuppystaGram" */;
+			buildPhases = (
+				D54E50213B637D9364056839 /* Check Pods Manifest.lock */,
+				2886EDB61B0E3A9000843496 /* Sources */,
+				2886EDB71B0E3A9000843496 /* Frameworks */,
+				2886EDB81B0E3A9000843496 /* Resources */,
+				5495BBE2095F4D9836B4ACE6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuppystaGram;
+			productName = PuppystaGram;
+			productReference = 2886EDBA1B0E3A9000843496 /* PuppystaGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2886EDD21B0E3A9000843496 /* PuppystaGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2886EDE01B0E3A9000843496 /* Build configuration list for PBXNativeTarget "PuppystaGramTests" */;
+			buildPhases = (
+				2886EDCF1B0E3A9000843496 /* Sources */,
+				2886EDD01B0E3A9000843496 /* Frameworks */,
+				2886EDD11B0E3A9000843496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2886EDD51B0E3A9000843496 /* PBXTargetDependency */,
+			);
+			name = PuppystaGramTests;
+			productName = PuppystaGramTests;
+			productReference = 2886EDD31B0E3A9000843496 /* PuppystaGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2886EDB21B0E3A9000843496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ian MacKinnon";
+				TargetAttributes = {
+					2886EDB91B0E3A9000843496 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2886EDD21B0E3A9000843496 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2886EDB91B0E3A9000843496;
+					};
+				};
+			};
+			buildConfigurationList = 2886EDB51B0E3A9000843496 /* Build configuration list for PBXProject "PuppystaGram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2886EDB11B0E3A9000843496;
+			productRefGroup = 2886EDBB1B0E3A9000843496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2886EDB91B0E3A9000843496 /* PuppystaGram */,
+				2886EDD21B0E3A9000843496 /* PuppystaGramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2886EDB81B0E3A9000843496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886EDC91B0E3A9000843496 /* Main.storyboard in Resources */,
+				2886EDCE1B0E3A9000843496 /* LaunchScreen.xib in Resources */,
+				2886EDCB1B0E3A9000843496 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886EDD11B0E3A9000843496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5495BBE2095F4D9836B4ACE6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54E50213B637D9364056839 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2886EDB61B0E3A9000843496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886EDC61B0E3A9000843496 /* ViewController.m in Sources */,
+				2886EDE81B0E49A000843496 /* PuppyViewController.m in Sources */,
+				2886EDEB1B0E4D6F00843496 /* PuppyHeaderView.m in Sources */,
+				2886EDE51B0E41E700843496 /* PuppyCollectionViewCell.m in Sources */,
+				2886EDC31B0E3A9000843496 /* AppDelegate.m in Sources */,
+				2886EDC01B0E3A9000843496 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886EDCF1B0E3A9000843496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886EDDA1B0E3A9000843496 /* PuppystaGramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2886EDD51B0E3A9000843496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2886EDB91B0E3A9000843496 /* PuppystaGram */;
+			targetProxy = 2886EDD41B0E3A9000843496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2886EDC71B0E3A9000843496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2886EDC81B0E3A9000843496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2886EDCC1B0E3A9000843496 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2886EDCD1B0E3A9000843496 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2886EDDB1B0E3A9000843496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2886EDDC1B0E3A9000843496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2886EDDE1B0E3A9000843496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21014AE919F472B40006984 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PuppystaGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2886EDDF1B0E3A9000843496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F7BC4E6FB5646E2D8B4D5E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PuppystaGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2886EDE11B0E3A9000843496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PuppystaGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuppystaGram.app/PuppystaGram";
+			};
+			name = Debug;
+		};
+		2886EDE21B0E3A9000843496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PuppystaGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuppystaGram.app/PuppystaGram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2886EDB51B0E3A9000843496 /* Build configuration list for PBXProject "PuppystaGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886EDDB1B0E3A9000843496 /* Debug */,
+				2886EDDC1B0E3A9000843496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2886EDDD1B0E3A9000843496 /* Build configuration list for PBXNativeTarget "PuppystaGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886EDDE1B0E3A9000843496 /* Debug */,
+				2886EDDF1B0E3A9000843496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2886EDE01B0E3A9000843496 /* Build configuration list for PBXNativeTarget "PuppystaGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886EDE11B0E3A9000843496 /* Debug */,
+				2886EDE21B0E3A9000843496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2886EDB21B0E3A9000843496 /* Project object */;
+}
